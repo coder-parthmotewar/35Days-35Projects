@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Signup | Day 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="form-box">
+        <h2 id="title">Login</h2>
+
+        <form id="form">
+            <input type="text" id="name" placeholder="Full Name" class="hidden">
+            <input type="email" id="email" placeholder="Email">
+            <input type="password" id="password" placeholder="Password">
+            <p id="error"></p>
+
+            <button type="submit">Login</button>
+        </form>
+
+        <p class="toggle">
+            Don’t have an account?
+            <span onclick="toggleForm()">Sign up</span>
+        </p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
