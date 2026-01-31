@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(120deg, #ff9966, #ff5e62);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bmi-container {
+    background: white;
+    width: 320px;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.bmi-container h1 {
+    margin-bottom: 20px;
+}
+
+.bmi-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.bmi-container button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background: #ff5e62;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 15px;
+    font-weight: bold;
+}
