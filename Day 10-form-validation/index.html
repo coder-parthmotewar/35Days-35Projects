@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation | Day 10</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Signup Form</h1>
+
+    <form id="signupForm">
+        <input type="text" id="name" placeholder="Full Name">
+        <small id="nameError"></small>
+
+        <input type="email" id="email" placeholder="Email Address">
+        <small id="emailError"></small>
+
+        <input type="password" id="password" placeholder="Password">
+        <small id="passwordError"></small>
+
+        <input type="password" id="confirmPassword" placeholder="Confirm Password">
+        <small id="confirmError"></small>
+
+        <button type="submit">Register</button>
+    </form>
+
+    <p id="successMsg"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
