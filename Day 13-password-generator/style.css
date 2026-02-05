@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(120deg, #667eea, #764ba2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.password-container {
+  background: white;
+  width: 360px;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.output {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.output input {
+  flex: 1;
+  padding: 10px;
+}
+
+.output button {
+  padding: 10px;
+  background: #764ba2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.options label {
+  display: block;
+  margin: 5px 0;
+}
+
+.generate {
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
