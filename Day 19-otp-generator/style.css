@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(120deg, #43cea2, #185a9d);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: white;
+  width: 350px;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.otp-box {
+  margin: 15px 0;
+}
+
+h2 {
+  letter-spacing: 5px;
+  margin: 10px 0;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  background: #185a9d;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.verify {
+  background: #43cea2;
+  margin-top: 5px;
+}
+
+#message {
+  margin-top: 10px;
+  font-weight: bold;
+}
