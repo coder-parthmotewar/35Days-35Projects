@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image Gallery | Day 21</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Image Gallery</h1>
+
+<div class="gallery">
+  <img src="https://picsum.photos/id/1011/300/200" onclick="openModal(this.src)">
+  <img src="https://picsum.photos/id/1015/300/200" onclick="openModal(this.src)">
+  <img src="https://picsum.photos/id/1020/300/200" onclick="openModal(this.src)">
+  <img src="https://picsum.photos/id/1024/300/200" onclick="openModal(this.src)">
+  <img src="https://picsum.photos/id/1035/300/200" onclick="openModal(this.src)">
+  <img src="https://picsum.photos/id/1040/300/200" onclick="openModal(this.src)">
+</div>
+
+<!-- Modal -->
+<div id="modal" onclick="closeModal()">
+  <span class="close">&times;</span>
+  <img id="modalImg">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
