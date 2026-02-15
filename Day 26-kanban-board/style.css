@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f6f8;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.board {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.column {
+  background: #fff;
+  width: 260px;
+  min-height: 350px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.column h2 {
+  margin-bottom: 10px;
+}
+
+.task {
+  background: #667eea;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  cursor: grab;
+}
+
+.column.drag-over {
+  background: #e0e7ff;
+}

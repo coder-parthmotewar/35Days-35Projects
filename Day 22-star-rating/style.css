@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(120deg, #f6d365, #fda085);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.stars {
+  margin: 15px 0;
+}
+
+.star {
+  font-size: 40px;
+  cursor: pointer;
+  color: #ccc;
+}
+
+.star.active {
+  color: gold;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  border: none;
+  background: #fda085;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}

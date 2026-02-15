@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  padding: 40px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+li {
+  background: white;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 6px;
+}
